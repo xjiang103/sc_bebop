@@ -1,0 +1,10 @@
+#!/bin/bash
+#SBATCH --job-name=ln_0619
+#SBATCH -N 1
+#SBATCH -p bdwall
+#SBATCH --ntasks-per-node=36
+#SBATCH -t 80:00:00
+
+python -u ln_qsm_0619.py -b_fmax 0.01 >/data/0619/qsm_001.txt
+python -u ln_qsm_0619.py -b_fmax 0.1 >/data/0619/qsm_01.txt
+python -u ln_qsm_0619.py -b_fmax 0.03 >/data/0619/qsm_003.txt  

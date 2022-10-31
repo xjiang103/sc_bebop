@@ -1,0 +1,8 @@
+#!/bin/bash
+#SBATCH --job-name=ln_0516
+#SBATCH -N 1
+#SBATCH -p bdwall
+#SBATCH --ntasks-per-node=36
+#SBATCH -t 80:00:00
+
+python -u ln_3_c_0516.py >0516_coh3.txt

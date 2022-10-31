@@ -1,0 +1,71 @@
+
+ccz 1 Delta_T_phases for b=200.0 
+ccz 1 Delta_T_phases for b=200.0 
+ccz 1 Delta_T_phases for b=200.0 
+ccz 1 Delta_T_phases for b=200.0 
+ccz 1 Delta_T_phases for b=200.0 
+ccz 1 Delta_T_phases for b=200.0 
+ccz 1 Delta_T_phases for b=200.0 0.9865447358489309 23.69421174281273 -14.882343151136583 0.4907606824602993 0.48866046868191493 0.488982029466821 
+
+ccz 1 Delta_T_phases for b=200.0 0.9997529409263369 24.372626541483225 0.5431194625068956 -2.43733064847419e-05 -6.379564195166642e-05 -0.00013550081174507685 
+
+ccz 1 Delta_T_phases for b=200.0 0.9997529409263369 24.372626541483225 0.5431194625068956 -2.43733064847419e-05 -6.379564195166642e-05 -0.00013550081174507685 
+
+ccz 1 Delta_T_phases for b=200.0 
+initial state=xxx
+ccz 1 Delta_T_phases for b=50.0 
+initial state=xxx
+ccz 1 Delta_T_phases for b=50.0 
+initial state=xxx
+ccz 1 Delta_T_phases for b=50.0 
+initial state=xxx
+ccz 1 Delta_T_phases for b=50.0 
+initial state=111
+ccz 1 Delta_T_phases for b=50.0 
+initial state=xxx
+ccz 1 Delta_T_phases for b=50.0 
+initial state=xxx
+ccz 1 Delta_T_phases for b=50.0 
+initial state=xxx
+ccz 1 Delta_T_phases for b=50.0 
+initial state=xxx
+ccz 1 Delta_T_phases for b=50.0 0.0 0.0 0.0 0.0 23.0 0.54 
+
+
+initial state=0
+ccz 1 Delta_T_phases for b=50.0 
+initial state=0
+ccz 1 Delta_T_phases for b=50.0 0.0 0.0 0.0 1.0 23.0 0.54 
+
+initial state=7
+ccz 1 Delta_T_phases for b=50.0 
+initial state=8
+ccz 1 Delta_T_phases for b=50.0 -0.2995389028844702 -0.8829905954436614 -0.33762840832677116 0.35355339784420714 23.0 0.54 
+
+initial state=8
+ccz 1 Delta_T_phases for b=50.0 -0.2995389028844702 -0.8829905954436614 -0.33762840832677116 0.35355339784420714 23.0 0.54 
+
+initial state=8
+ccz 1 Delta_T_phases for b=50.0 
+initial state=8
+ccz 1 Delta_T_phases for b=50.0 0.6331036827496056 2.3473057604201677 -0.4336354207088022 0.4994768387466486 18.358447265624996 0.5641127929687504 
+
+initial state=8
+ccz 1 Delta_T_phases for b=50.0 
+initial state=8
+ccz 1 Delta_T_phases for b=200.0 1.2362156557809876 -0.8768520083702552 -0.42470890189492055 0.8407085049195203 23.80399353504182 0.5450882813930511 
+
+initial state=7
+ccz 1 Delta_T_phases for b=200.0 
+initial state=8
+ccz 1 Delta_T_phases for b=200.0 1.2362156557809876 -0.8768520083702552 -0.42470890189492055 0.8407085049195203 23.80399353504182 0.5450882813930511 
+
+initial state=7
+ccz 1 Delta_T_phases for b=200.0 
+initial state=8
+ccz 1 Delta_T_phases for b=200.0 
+initial state=8
+ccz 1 Delta_T_phases for b=200.0 1.2362156557809876 -0.8768520083702552 -0.42470890189492055 0.8407085049195203 23.80399353504182 0.5450882813930511 
+
+initial state=8
+ccz 1 Delta_T_phases for b=200.0 0.38450806014614936 1.3144690117498983 0.7634706438379044 0.5944706840150074 23.81719207763672 0.5504723052978515 

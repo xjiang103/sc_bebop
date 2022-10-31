@@ -1,0 +1,26 @@
+
+compiler:
+  - gcc
+
+language: c
+
+cache:
+  packages: 
+    - gfortran
+  directories:
+    - petsc
+
+addons:
+  apt:
+    packages:
+      - gfortran
+
+install:
+  - |
+    cd petsc/
+    export PETSC_DIR=`pwd`
+    export PETSC_ARCH=linux-gnu-c-opt
+    cd ..
+
+script: tests/travis_test.sh
+

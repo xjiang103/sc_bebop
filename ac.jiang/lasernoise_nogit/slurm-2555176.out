@@ -1,0 +1,74 @@
+before python
+joblib.externals.loky.process_executor._RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/home/ac.jiang/anaconda/lib/python3.8/site-packages/joblib/externals/loky/process_executor.py", line 431, in _process_worker
+    r = call_item()
+  File "/home/ac.jiang/anaconda/lib/python3.8/site-packages/joblib/externals/loky/process_executor.py", line 285, in __call__
+    return self.fn(*self.args, **self.kwargs)
+  File "/home/ac.jiang/anaconda/lib/python3.8/site-packages/joblib/_parallel_backends.py", line 595, in __call__
+    return self.func(*args, **kwargs)
+  File "/home/ac.jiang/anaconda/lib/python3.8/site-packages/joblib/parallel.py", line 252, in __call__
+    return [func(*args, **kwargs)
+  File "/home/ac.jiang/anaconda/lib/python3.8/site-packages/joblib/parallel.py", line 252, in <listcomp>
+    return [func(*args, **kwargs)
+  File "ln_0824_sb_s2.py", line 91, in run_job
+    yf[0]=(np.sqrt/2.0)*(ytmp[0]-1j*ytmp[1])
+TypeError: unsupported operand type(s) for /: 'numpy.ufunc' and 'float'
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "ln_0824_sb_s2.py", line 147, in <module>
+    res=swp_lw(scale_fac*fg)
+  File "ln_0824_sb_s2.py", line 104, in swp_lw
+    results = Parallel(n_jobs=num_cores,backend="loky")(delayed(run_job)() for count in range(nrun))
+  File "/home/ac.jiang/anaconda/lib/python3.8/site-packages/joblib/parallel.py", line 1042, in __call__
+    self.retrieve()
+  File "/home/ac.jiang/anaconda/lib/python3.8/site-packages/joblib/parallel.py", line 921, in retrieve
+    self._output.extend(job.get(timeout=self.timeout))
+  File "/home/ac.jiang/anaconda/lib/python3.8/site-packages/joblib/_parallel_backends.py", line 542, in wrap_future_result
+    return future.result(timeout=timeout)
+  File "/home/ac.jiang/anaconda/lib/python3.8/concurrent/futures/_base.py", line 439, in result
+    return self.__get_result()
+  File "/home/ac.jiang/anaconda/lib/python3.8/concurrent/futures/_base.py", line 388, in __get_result
+    raise self._exception
+TypeError: unsupported operand type(s) for /: 'numpy.ufunc' and 'float'
+joblib.externals.loky.process_executor._RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/home/ac.jiang/anaconda/lib/python3.8/site-packages/joblib/externals/loky/process_executor.py", line 431, in _process_worker
+    r = call_item()
+  File "/home/ac.jiang/anaconda/lib/python3.8/site-packages/joblib/externals/loky/process_executor.py", line 285, in __call__
+    return self.fn(*self.args, **self.kwargs)
+  File "/home/ac.jiang/anaconda/lib/python3.8/site-packages/joblib/_parallel_backends.py", line 595, in __call__
+    return self.func(*args, **kwargs)
+  File "/home/ac.jiang/anaconda/lib/python3.8/site-packages/joblib/parallel.py", line 252, in __call__
+    return [func(*args, **kwargs)
+  File "/home/ac.jiang/anaconda/lib/python3.8/site-packages/joblib/parallel.py", line 252, in <listcomp>
+    return [func(*args, **kwargs)
+  File "ln_0824_sb_s2.py", line 91, in run_job
+    yf[0]=(np.sqrt/2.0)*(ytmp[0]-1j*ytmp[1])
+TypeError: unsupported operand type(s) for /: 'numpy.ufunc' and 'float'
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "ln_0824_sb_s2.py", line 147, in <module>
+    res=swp_lw(scale_fac*fg)
+  File "ln_0824_sb_s2.py", line 104, in swp_lw
+    results = Parallel(n_jobs=num_cores,backend="loky")(delayed(run_job)() for count in range(nrun))
+  File "/home/ac.jiang/anaconda/lib/python3.8/site-packages/joblib/parallel.py", line 1042, in __call__
+    self.retrieve()
+  File "/home/ac.jiang/anaconda/lib/python3.8/site-packages/joblib/parallel.py", line 921, in retrieve
+    self._output.extend(job.get(timeout=self.timeout))
+  File "/home/ac.jiang/anaconda/lib/python3.8/site-packages/joblib/_parallel_backends.py", line 542, in wrap_future_result
+    return future.result(timeout=timeout)
+  File "/home/ac.jiang/anaconda/lib/python3.8/concurrent/futures/_base.py", line 439, in result
+    return self.__get_result()
+  File "/home/ac.jiang/anaconda/lib/python3.8/concurrent/futures/_base.py", line 388, in __get_result
+    raise self._exception
+TypeError: unsupported operand type(s) for /: 'numpy.ufunc' and 'float'
+after python

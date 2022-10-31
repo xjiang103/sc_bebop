@@ -1,0 +1,14 @@
+#!/bin/bash
+#SBATCH --job-name=qudit_learning
+#SBATCH -N 1
+#SBATCH -p bdwall
+#SBATCH --ntasks-per-node=36
+#SBATCH -t 79:10:00
+
+python -u na_3_ave_ckz.py -b 10 -pt 2 >data/0403/sp_3_ckz_b10.txt
+python -u na_4_ave_ckz.py -b 10 -pt 2 >data/0403/sp_4_ckz_b10.txt 
+python -u na_5_ave_ckz.py -b 10 -pt 2 >data/0403/sp_5_ckz_b10.txt
+python -u na_3_ave_ckz.py -b 200 -pt 2 >data/0403/sp_3_ckz_b200.txt
+python -u na_4_ave_ckz.py -b 200 -pt 2 >data/0403/sp_4_ckz_b200.txt
+python -u na_5_ave_ckz.py -b 200 -pt 2 >data/0403/sp_5_ckz_b200.txt
+python -u na_3_ave_ckz.py -b 200 -pt 1 >data/0403/sp_3_ckz_b200.txt

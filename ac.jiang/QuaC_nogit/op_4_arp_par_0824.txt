@@ -1,0 +1,12 @@
+
+cccz 1 Delta_T_phases for b=200.0 
+cccz 1 Delta_T_phases for b=200.0 0.9934902885924655 
+cccz 1 Delta_T_phases for b=200.0 0.9934902885924655 
+cccz 1 Delta_T_phases for b=200.0 0.9934902885924655 
+cccz 1 Delta_T_phases for b=200.0 0.9934902885924655 
+cccz 1 Delta_T_phases for b=200.0 0.9935088259549283 
+cccz 1 Delta_T_phases for b=200.0 0.9934274670325666 
+cccz 1 Delta_T_phases for b=200.0 0.9930211099788598 
+cccz 1 Delta_T_phases for b=200.0 0.9912360926045516 
+cccz 1 Delta_T_phases for b=200.0 0.9821326699337394 
+cccz 1 Delta_T_phases for b=200.0 0.9500129575725188 

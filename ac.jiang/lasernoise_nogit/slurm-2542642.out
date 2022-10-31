@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "intswp_1p_fc.py", line 34, in <module>
+    fmin=fmax/nf
+NameError: name 'fmax' is not defined

@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "intswp_2p.py", line 180, in <module>
+    res=swp_lw(fg,fg)
+  File "intswp_2p.py", line 158, in swp_lw
+    stdp=np.sqrt(sump/float(npo))
+ZeroDivisionError: float division by zero
+/home/ac.jiang/anaconda/lib/python3.8/site-packages/joblib/externals/loky/backend/resource_tracker.py:303: UserWarning: resource_tracker: /dev/shm/joblib_memmapping_folder_1115_ca9ed444d4e94b05b062de5f4401f33c_cf215a8ec0eb448a9ab3101a9b6e4399/1115-47087537333392-de6d66289ccf43b2b636d2355c6841ae.pkl: FileNotFoundError(2, 'No such file or directory')
+  warnings.warn(
+/home/ac.jiang/anaconda/lib/python3.8/site-packages/joblib/externals/loky/backend/resource_tracker.py:303: UserWarning: resource_tracker: /dev/shm/joblib_memmapping_folder_1115_ca9ed444d4e94b05b062de5f4401f33c_cf215a8ec0eb448a9ab3101a9b6e4399/1115-47087537333392-bdde578033da49a6976265f82342d9fe.pkl: FileNotFoundError(2, 'No such file or directory')
+  warnings.warn(
+/home/ac.jiang/anaconda/lib/python3.8/site-packages/joblib/externals/loky/backend/resource_tracker.py:303: UserWarning: resource_tracker: /dev/shm/joblib_memmapping_folder_1115_ca9ed444d4e94b05b062de5f4401f33c_cf215a8ec0eb448a9ab3101a9b6e4399/1115-47087537333392-6b6fda89f75742f19cbff3278fcbdb4e.pkl: FileNotFoundError(2, 'No such file or directory')
+  warnings.warn(

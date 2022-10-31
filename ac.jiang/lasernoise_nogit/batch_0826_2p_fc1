@@ -1,0 +1,8 @@
+#!/bin/bash
+#SBATCH --job-name=ln_0826_2p_fc1
+#SBATCH -N 1
+#SBATCH -p bdwall
+#SBATCH --ntasks-per-node=36
+#SBATCH -t 80:00:00
+
+python -u intswp_2p_fc.py -tpi 1 >0826_2p_1pifc.txt

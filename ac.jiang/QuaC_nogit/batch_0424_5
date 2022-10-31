@@ -1,0 +1,9 @@
+#!/bin/bash
+#SBATCH --job-name=sc_0424_5
+#SBATCH -N 1
+#SBATCH -p bdwall
+#SBATCH --ntasks-per-node=36
+#SBATCH -t 80:00:00
+
+
+python -u na_5_ave_czk.py -pt 2 -b 10 >data/0403/sp_5_czk_b10_0424.txt

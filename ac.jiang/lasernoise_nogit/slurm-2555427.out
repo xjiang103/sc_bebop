@@ -1,0 +1,2 @@
+before python
+slurmstepd: error: *** JOB 2555427 ON bdw-0382 CANCELLED AT 2022-08-25T07:02:49 ***

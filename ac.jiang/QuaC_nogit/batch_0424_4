@@ -1,0 +1,14 @@
+#!/bin/bash
+#SBATCH --job-name=sc_0424_4
+#SBATCH -N 1
+#SBATCH -p bdwall
+#SBATCH --ntasks-per-node=36
+#SBATCH -t 80:00:00
+
+python -u na_5_ave_czk_db.py -b 10 -pt 2 -dfac 0.0 >data/0403/sp_5_czk_db000.txt
+python -u na_5_ave_czk_db.py -b 10 -pt 2 -dfac 0.05 >data/0403/sp_5_czk_db005.txt
+python -u na_5_ave_czk_db.py -b 10 -pt 2 -dfac 0.10 >data/0403/sp_5_czk_db010.txt 
+python -u na_5_ave_czk_db.py -b 10 -pt 2 -dfac 0.15 >data/0403/sp_5_czk_db015.txt 
+python -u na_5_ave_czk_db.py -b 10 -pt 2 -dfac 0.20 >data/0403/sp_5_czk_db020.txt 
+python -u na_5_ave_czk_db.py -b 10 -pt 2 -dfac 0.25 >data/0403/sp_5_czk_db025.txt 
+python -u na_5_ave_czk_db.py -b 10 -pt 2 -dfac 0.30 >data/0403/sp_5_czk_db030.txt 

@@ -1,0 +1,13 @@
+#!/bin/bash
+#SBATCH --job-name=sc_0626_8
+#SBATCH -N 1
+#SBATCH -p bdwall
+#SBATCH --ntasks-per-node=36
+#SBATCH -t 80:00:00
+
+
+python -u na_4_F_ave.py -b 200 >data/0626/arp_4_ckz_b200.txt
+python -u na_4_F_ave.py -b 300 >data/0626/arp_4_ckz_b300.txt 
+python -u na_4_F_ave.py -b 400 >data/0626/arp_4_ckz_b400.txt 
+python -u na_4_F_ave.py -b 500 >data/0626/arp_4_ckz_b500.txt 
+python -u na_4_F_ave.py -b 600 >data/0626/arp_4_ckz_b600.txt 

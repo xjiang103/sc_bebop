@@ -1,0 +1,2 @@
+usage: intswp_2p.py [-h] -tpi TPI_NUMBER
+intswp_2p.py: error: argument -tpi/--tpi_number: expected one argument

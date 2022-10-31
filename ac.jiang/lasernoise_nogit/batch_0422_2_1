@@ -1,0 +1,10 @@
+#!/bin/bash
+#SBATCH --job-name=ln_0422_2_1
+#SBATCH -N 1
+#SBATCH -p bdwall
+#SBATCH --ntasks-per-node=36
+#SBATCH -t 80:00:00
+
+echo "before python"
+python -u intswp_2p.py -tpi 1 >0519_2p_1.txt
+echo "after python"

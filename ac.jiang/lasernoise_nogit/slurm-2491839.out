@@ -1,0 +1,9 @@
+usage: ln_qsm_0628.py [-h] -b_fmax B_FMAXFMAX -nr NRUN_TIMES
+ln_qsm_0628.py: error: argument -nr/--nrun_times: expected one argument
+usage: ln_qsm_0628.py [-h] -b_fmax B_FMAXFMAX -nr NRUN_TIMES
+ln_qsm_0628.py: error: argument -nr/--nrun_times: expected one argument
+usage: ln_qsm_0628.py [-h] -b_fmax B_FMAXFMAX -nr NRUN_TIMES
+ln_qsm_0628.py: error: argument -nr/--nrun_times: expected one argument
+usage: ln_qsm_0628.py [-h] -b_fmax B_FMAXFMAX -nr NRUN_TIMES
+ln_qsm_0628.py: error: argument -nr/--nrun_times: expected one argument
+/var/spool/slurmd/job2491839/slurm_script: line 14: 100000: Bad file descriptor

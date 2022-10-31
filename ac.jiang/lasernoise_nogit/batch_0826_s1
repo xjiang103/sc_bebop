@@ -1,0 +1,11 @@
+#!/bin/bash
+#SBATCH --job-name=ln_0826_s1
+#SBATCH -N 1
+#SBATCH -p bdwall
+#SBATCH --ntasks-per-node=36
+#SBATCH -t 80:00:00
+
+echo "before python"
+python -u ln_0826_sig_sb_s1.py -tpi 1 >0826_s1_1.txt
+python -u ln_0826_sig_sb_s1.py -tpi 2 >0826_s1_2.txt
+echo "after python"

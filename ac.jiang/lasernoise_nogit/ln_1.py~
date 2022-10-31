@@ -1,0 +1,80 @@
+import numpy as np
+import matplotlib.pyplot as plt
+import math
+import random
+from scipy.integrate import complex_ode
+
+#number of runs
+Nrun=10
+
+
+
+#rabi parameters
+omega_0=2*math.pi*(0.101528)*(10e6)
+ntime=1
+timeupperbound=0.5*(ntime+1)*2*math.pi/(omega_0)
+
+#frequency domain sample parameters
+fmax=10*omega_0/(2*math.pi)
+nf=10000
+fmin=fmax/nf
+df=fmin
+
+#make time array for solution
+ntimesweep=1000
+tstop=timeupperbound
+tinc=tstop/ntimesweep
+tarray=np.arange(0.,tstop,tinc)
+
+#linewidth sweep parameters
+lwmax=0.3*omega_0/(2*math.pi)
+nsweep=10
+lwmin=lwmax/nsweep
+dlw=lwmin
+
+def s_nu(f,lw):
+    return lw/(2*f*f*math.pi)
+
+print(s_nu(100,100))
+
+seedarray=[]
+for k in range(nf):
+    seedarray.append(random.randint(1,10000000))
+    
+def phigen(t):
+    phitemp=0
+    for k in range(nf):
+        random.seed(seedarray[k])
+        phitemp=phitemp+2*math.sqrt(s_nu((k+1)*df,lwmin)*df)*math.cos(2*math.pi*(k+1)*df*t+random.uniform(0,2*math.pi))
+    return phitemp
+phiarray=[]
+for k in range(ntimesweep+1):
+    phiarray.append(phigen(tarray[k]))
+
+plt.plot(tarray,phiarray)
+plt.show()
+
+#_------------------------------------------------------------------------
+#solving differential equations
+def feq(t,y):
+    a=y[0]
+    b=y[1]
+    omega=omega_0
+    derivs=[0.5*complex(0,1)*omega*math.exp(complex(0,1)*phigen(t))*b,
+            0.5*complex(0,1)*omega*math.exp(-1*complex(0,1)*phigen(t))*a]
+    return derivs
+def jac(t,y):
+    
+#initial values
+a0=1.0
+b0=0.0
+
+#bundle initial conditions for ODE solver
+y0=[a0,b0]
+#ODE solver
+psoln=complex_ode(feq,y0,tarray)
+
+plt.plot(tarray,psoln[:,1])
+plt.show()
+
+print(phi(5))

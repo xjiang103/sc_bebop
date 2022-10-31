@@ -1,0 +1,14 @@
+#!/bin/bash
+#SBATCH --job-name=sc_0717_6
+#SBATCH -N 1
+#SBATCH -p bdwall
+#SBATCH --ntasks-per-node=36
+#SBATCH -t 80:00:00
+
+python -u na_5_F_ave_db.py -b 200 -deltab 0 >data/0717/5_ckz_0.txt
+python -u na_5_F_ave_db.py -b 200 -deltab 1.25 >data/0717/5_ckz_1.25.txt 
+python -u na_5_F_ave_db.py -b 200 -deltab 2.5 >data/0717/5_ckz_2.5.txt 
+python -u na_5_F_ave_db.py -b 200 -deltab 5 >data/0717/5_ckz_5.txt 
+python -u na_5_F_ave_db.py -b 200 -deltab 7.5 >data/0717/5_ckz_7.5.txt 
+python -u na_5_F_ave_db.py -b 200 -deltab 10 >data/0717/5_ckz_10.txt 
+python -u na_5_F_ave_db.py -b 200 -deltab 12.5 >data/0717/5_ckz_12.5.txt   

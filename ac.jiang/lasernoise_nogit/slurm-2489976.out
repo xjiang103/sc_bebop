@@ -1,0 +1,17 @@
+Traceback (most recent call last):
+  File "ln_qsm_0628.py", line 25, in <module>
+    filestr="fmaxswp_0628_"+str(nr)+".txt"
+NameError: name 'nr' is not defined
+Traceback (most recent call last):
+  File "ln_qsm_0628.py", line 25, in <module>
+    filestr="fmaxswp_0628_"+str(nr)+".txt"
+NameError: name 'nr' is not defined
+usage: ln_qsm_0628.py [-h] -b_fmax B_FMAXFMAX -nr NRUN_TIMES
+ln_qsm_0628.py: error: argument -nr/--nrun_times: expected one argument
+usage: ln_qsm_0628.py [-h] -b_fmax B_FMAXFMAX -nr NRUN_TIMES
+ln_qsm_0628.py: error: argument -nr/--nrun_times: expected one argument
+usage: ln_qsm_0628.py [-h] -b_fmax B_FMAXFMAX -nr NRUN_TIMES
+ln_qsm_0628.py: error: argument -nr/--nrun_times: expected one argument
+usage: ln_qsm_0628.py [-h] -b_fmax B_FMAXFMAX -nr NRUN_TIMES
+ln_qsm_0628.py: error: argument -nr/--nrun_times: expected one argument
+/var/spool/slurmd/job2489976/slurm_script: line 14: 100000: Bad file descriptor

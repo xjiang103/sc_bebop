@@ -1,0 +1,9 @@
+#!/bin/bash
+#SBATCH --job-name=ln_0419
+#SBATCH -N 1
+#SBATCH -p bdwall
+#SBATCH --ntasks-per-node=36
+#SBATCH -t 80:00:00
+
+python -u ln32_0419.py -tpi 1
+python -u ln32_0419.py -tpi 2

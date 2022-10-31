@@ -1,0 +1,11 @@
+intswp_2pw.py:113: RuntimeWarning: invalid value encountered in sqrt
+  0.5*1j*omega1*np.sqrt(1+phi1)*np.exp(-1j*(delta1*t))*a+0.5*1j*omega2*np.sqrt(1+phi2)*np.exp(1j*(delta2*t))*c,
+intswp_2pw.py:114: RuntimeWarning: invalid value encountered in sqrt
+  0.5*1j*omega2*np.sqrt(1+phi2)*np.exp(-1j*(delta2*t))*b]
+intswp_2pw.py:112: RuntimeWarning: invalid value encountered in sqrt
+  derivs=[0.5*1j*omega1*np.sqrt(1+phi1)*np.exp(1j*(delta1*t))*b,
+intswp_2pw.py:113: RuntimeWarning: invalid value encountered in sqrt
+  0.5*1j*omega1*np.sqrt(1+phi1)*np.exp(-1j*(delta1*t))*a+0.5*1j*omega2*np.sqrt(1+phi2)*np.exp(1j*(delta2*t))*c,
+QStandardPaths: XDG_RUNTIME_DIR points to non-existing path '/run/user/20314', please create it with 0700 permissions.
+qt.qpa.screen: QXcbConnection: Could not connect to display localhost:14.0
+Could not connect to any X display.

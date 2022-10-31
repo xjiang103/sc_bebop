@@ -1,0 +1,11 @@
+usage: ln_qsm_0628.py [-h] -b_fmax B_FMAXFMAX -nr NRUN_TIMES
+ln_qsm_0628.py: error: argument -nr/--nrun_times: expected one argument
+usage: ln_qsm_0628.py [-h] -b_fmax B_FMAXFMAX -nr NRUN_TIMES
+ln_qsm_0628.py: error: argument -nr/--nrun_times: expected one argument
+usage: ln_qsm_0628.py [-h] -b_fmax B_FMAXFMAX -nr NRUN_TIMES
+ln_qsm_0628.py: error: argument -nr/--nrun_times: expected one argument
+usage: ln_qsm_0628.py [-h] -b_fmax B_FMAXFMAX -nr NRUN_TIMES
+ln_qsm_0628.py: error: argument -nr/--nrun_times: expected one argument
+usage: ln_qsm_0628.py [-h] -b_fmax B_FMAXFMAX -nr NRUN_TIMES
+ln_qsm_0628.py: error: argument -nr/--nrun_times: expected one argument
+slurmstepd: error: *** JOB 2491290 ON bdw-0128 CANCELLED AT 2022-06-29T13:49:37 ***
