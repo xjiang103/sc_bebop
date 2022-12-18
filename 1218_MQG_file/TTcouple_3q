@@ -1,0 +1,16 @@
+#!/bin/bash
+#SBATCH --job-name=TTcouple_3q
+#SBATCH -N 1
+#SBATCH -p bdwall
+#SBATCH --ntasks-per-node=36
+#SBATCH -t 80:00:00
+
+
+python -u na_3_ave_czk_db.py -b 200 -pt 1 -dfac 0 >3_czk_db_0.txt
+python -u na_3_ave_czk_db.py -b 200 -pt 1 -dfac 0.0001 >3_czk_db_1e4.txt 
+python -u na_3_ave_czk_db.py -b 200 -pt 1 -dfac 0.0002 >3_czk_db_2e4.txt 
+python -u na_3_ave_czk_db.py -b 200 -pt 1 -dfac 0.0005 >3_czk_db_5e4.txt 
+python -u na_3_ave_czk_db.py -b 200 -pt 1 -dfac 0.001 >3_czk_db_1e3.txt
+python -u na_3_ave_czk_db.py -b 200 -pt 1 -dfac 0.002 >3_czk_db_2e3.txt    
+python -u na_3_ave_czk_db.py -b 200 -pt 1 -dfac 0.005 >3_czk_db_5e3.txt    
+python -u na_3_ave_czk_db.py -b 200 -pt 1 -dfac 0.01 >3_czk_db_1e2.txt    

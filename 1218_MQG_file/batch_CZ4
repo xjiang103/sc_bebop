@@ -1,0 +1,10 @@
+#!/bin/bash
+#SBATCH --job-name=CZ4_realparams
+#SBATCH -N 1
+#SBATCH -p bdwall
+#SBATCH --ntasks-per-node=36
+#SBATCH -t 24:00:00
+
+
+python -u na_5_ave_czk_realparams.py -pt 1 -b 185 >arp_5_czk_b185.txt
+

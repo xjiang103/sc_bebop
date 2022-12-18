@@ -1,0 +1,12 @@
+//copy all files in /examples_tmp/ to */QuaC/examples
+
+Do:
+./ na_3_F_par
+./ na_4_F_par_0309
+./ na_5_F_par
+./ na_5_F_par_realparams
+
+sbatch TTcouple_3q
+sbatch TTcouple_4q
+sbatch TTcouple_5q
+sbatch batch_CZ4
